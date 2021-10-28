@@ -1,0 +1,219 @@
+body
+{
+	font-family: 'Montserrat', Arial;
+}
+
+#wrapper
+{
+	width: 85%;
+	margin: auto;
+}
+
+/*DEFINITION DU STYLE DE L'ENTETE DE LA PAGE*/
+
+header
+{
+	border: 1px solid black;
+	color: #dedede;
+	display: flex;
+	height: 300px;
+	background-image: url('image/header_img.png');
+	background-repeat: repeat;
+
+}
+
+nav p 
+{
+
+
+
+}
+
+nav p img[title="soleil"]
+{
+   
+   
+}
+
+nav p img[title="Batman"]
+{
+  
+position: relative;
+ top: 3.5em;
+ left: -8.7em;
+
+}
+
+
+nav
+{
+	display: flex;
+	/*border:  1px dotted blue;*/
+	height: 60%;
+	width: 100%;
+	background-image: url('image/rectangle25.png');
+	background-repeat: repeat-x;
+
+
+
+}
+
+nav ul 
+{
+	/*border: 3px solid green;*/
+	margin-top: 3.5em;
+	margin-left: -7em;
+	padding-top: 3em;
+	padding-left: 0em;
+}
+
+nav ul li 
+{
+	list-style-type: none;
+	display: inline;
+	text-transform: capitalize; 
+	padding-right: 6em;
+	list-style-image: url('image/line7.png');
+
+
+}
+
+
+
+/*DEFINITION DU STYLE DE CORPS DE LA PAGE*/
+
+main 
+{
+	/*border: 2px solid black;*/
+	display: flex;
+	flex-direction: row;
+
+}
+
+
+main article p
+{
+   font-size: 1em;
+
+   font-weight: regular;    
+
+   text-align: left;
+
+   margin-right: 3em;
+
+
+}
+
+
+article
+{
+   /*border: 2px dashed blue;*/
+
+}
+
+article h1 
+{
+	font-size: 4em;
+	font-weight: semi-bold;
+}
+
+article h2 
+{
+	font-size: 3em;
+	font-weight: medium;
+
+}
+
+h2 + p + p
+{
+	margin-bottom: 3em;
+}
+
+
+aside
+{
+  /*border: 2px dashed yellow;*/
+  width: 120%;
+  background-color: #fcd530;
+}
+
+
+aside p img 
+{
+	position: relative;
+	top: 10em;
+	left: -5em;
+}
+
+
+
+
+/* DEFINITION DU STYLE DU FOOTER*/
+
+footer 
+{
+	border:  2px solid black;
+	display: flex;
+	flex-direction: row;
+	color: #dedede;
+	justify-content: space-around;
+	background-image: url('image/footer_img.png');
+	background-repeat: repeat;
+
+}
+
+#contact ul {
+	/*border: 1px solid whitesmoke;*/
+}
+
+
+#contact  ul li 
+{
+	list-style-type: none;
+	line-height: 1.8em;
+}
+
+#contact h3
+{
+	margin-left: 1.5em;
+	font-size: 1.5em;
+	font-weight: bold;
+
+}
+
+
+
+#careers h3 
+{
+	margin-left: 2em;
+}
+
+
+#careers ul 
+{
+	/*border : 1px solid whitesmoke;*/
+}
+
+
+
+#careers ul li 
+{
+	list-style-type: none;
+	line-height: 1.8;
+}
+
+
+#follow p
+{
+   word-spacing: 0.5em; 
+
+}
+
+
+
+#partners h3 
+{
+     margin-left: 2em;
+
+}
+
