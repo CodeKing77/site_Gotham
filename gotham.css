@@ -31,14 +31,15 @@ nav p
 
 nav p img[title="soleil"]
 {
-   
+   /*border: 2px solid red;*/
+   margin-left: 3em;
    
 }
 
 nav p img[title="Batman"]
 {
   
-position: relative;
+ position: relative;
  top: 3.5em;
  left: -8.7em;
 
@@ -62,7 +63,7 @@ nav ul
 {
 	/*border: 3px solid green;*/
 	margin-top: 3.5em;
-	margin-left: -7em;
+	margin-left: -6em;
 	padding-top: 3em;
 	padding-left: 0em;
 }
@@ -73,10 +74,63 @@ nav ul li
 	display: inline;
 	text-transform: capitalize; 
 	padding-right: 6em;
-	list-style-image: url('image/line7.png');
+}
 
+nav ul img 
+{
+	position: relative;
+	top: 1em;
+}
+
+
+nav ul li a
+{
+   color: #dedede;
+   text-decoration: none;
+}
+
+nav ul li a:hover 
+{
+  color: #fcd530;
 
 }
+
+nav ul + p 
+{
+	/*border:  1px solid darkred;*/
+
+}
+
+nav ul +p>img[alt="logo_search_rectangle"]
+{
+	position: absolute;
+   top: 0.8em;
+	right: 17em;
+}
+
+
+nav ul + p > img[alt="logo_search_ellipse"] 
+{
+    position: relative;
+    left: -6.5em;
+}
+
+
+nav ul + p >img[alt="logo_search_line"] 
+{
+	position: relative;
+
+	left: -6.9em;
+}
+
+nav ul + p > span
+{
+	position: relative;
+	left: -6.9em;
+}
+
+
+
 
 
 
@@ -90,7 +144,7 @@ main
 
 }
 
- a:hover
+ main article p a:hover
  {
      text-decoration: none; 
      background-color:#fcd530 ;
