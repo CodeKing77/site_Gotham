@@ -213,7 +213,7 @@ aside p img
 
 footer 
 {
-	border:  2px solid black;
+	/*border:  3px dotted darkred;*/
 	display: flex;
 	flex-direction: row;
 	color: #dedede;
@@ -253,6 +253,7 @@ footer
 #careers ul 
 {
 	/*border : 1px solid whitesmoke;*/
+	margin-top: 2em;
 }
 
 
@@ -264,9 +265,16 @@ footer
 }
 
 
-#follow p
+#follow 
+{
+	/*border: 1px solid green;*/
+	
+}
+
+#follow h3 + p
 {
    word-spacing: 0.5em; 
+   padding-top: 1.8em;
 
 }
 
